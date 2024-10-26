@@ -1,0 +1,96 @@
+.scrollBarWrapper {
+  width: 80%;
+  max-width: 400px;
+  max-height: 150px;
+  position: relative;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  padding: 12px;
+
+  @media screen and (min-width: 768px) {
+    width: 200px;
+    height: auto;
+    max-height: none;
+  }
+
+  &::before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 0 0 24px 24px;
+    background-color: var(--slate-7);
+
+    @media screen and (min-width: 768px) {
+      height: calc(100% - 48px);
+      border-radius: 24px 24px 24px 0;
+    }
+  }
+
+  &::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 24px;
+    height: 24px;
+    z-index: 1;
+    transform: translate(100%, 0);
+    background-color: var(--slate-7);
+    clip-path: path("M-1 -1, L24 -1 L24 0 Q0 0, 0 24 L-1 24 ");
+
+    @media screen and (min-width: 768px) {
+      display: none;
+    }
+  }
+
+  .swiper {
+    height: 100%;
+    width: 100%;
+    padding: 12px;
+
+    &::after {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      z-index: 1;
+      pointer-events: none;
+      background-color: transparent;
+      box-shadow: inset 8px 0px 12px var(--slate-7),
+        inset -8px 0px 12px var(--slate-7), inset 25px 0px 30px var(--slate-7),
+        inset -25px 0px 30px var(--slate-7);
+    }
+
+    @media screen and (min-width: 768px) {
+      &::after {
+        box-shadow: inset 0px 8px 12px var(--slate-7),
+          inset 0px -8px 12px var(--slate-7), inset 0px 25px 30px var(--slate-7),
+          inset 0px -25px 30px var(--slate-7);
+      }
+
+      height: calc(100% - 48px);
+    }
+
+    .slide {
+      height: 100%;
+      background-color: var(--mauve-3);
+      border-radius: 12px;
+
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      aspect-ratio: 1;
+
+      .slideContent {
+        opacity: 1;
+        transition: opacity 0.3s ease-in-out;
+      }
+    }
+  }
+}
