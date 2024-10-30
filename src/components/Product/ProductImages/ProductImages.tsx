@@ -6,7 +6,11 @@ import ImageScrollBar from "./ImageScrollBar/ImageScrollBar";
 import sc from "./ProductImages.module.scss";
 import { Swiper } from "swiper";
 
-const ProdutImages = () => {
+interface ProductImagesProps {
+  images: [{ src: string }];
+}
+
+const ProdutImages = ({ images }: ProductImagesProps) => {
   const [mainSwiper, setMainSwiper] = useState<Swiper | null>(null);
   const [secondSwiper, setSecondSwiper] = useState<Swiper | null>(null);
 
@@ -17,17 +21,19 @@ const ProdutImages = () => {
       columns={{
         initial: "1",
         sm: "1fr 200px",
+        md: "1fr 120px",
+        lg: "1fr 200px",
       }}
     >
       <ProductImage
-        src="/scooter-blue-1.png"
-        alt="scooter"
         setMainSwiper={setMainSwiper}
         secondSwiper={secondSwiper}
+        images={images}
       />
       <ImageScrollBar
         mainSwiper={mainSwiper}
         setSecondSwiper={setSecondSwiper}
+        images={images}
       />
     </Grid>
   );

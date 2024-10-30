@@ -8,18 +8,17 @@ import "swiper/css/thumbs";
 import "swiper/css/free-mode";
 
 interface ProductImageProps {
-  src: string;
-  alt: string;
   setMainSwiper?: (swiper: SwiperClass) => void;
   secondSwiper?: SwiperClass | null;
+  images: { src: string }[];
 }
 
 const ProductImage: React.FC<ProductImageProps> = ({
-  src,
-  alt,
   setMainSwiper,
   secondSwiper,
+  images,
 }) => {
+  console.log("images", images);
   return (
     <Box minWidth={"100%"} className={sc.imageWrapper}>
       <Box display={{ sm: "none" }} className={sc.clipPathElement} />
@@ -35,50 +34,22 @@ const ProductImage: React.FC<ProductImageProps> = ({
         }}
         style={{ width: "100%", height: "100%" }}
       >
-        <SwiperSlide>
-          <Image
-            layout="responsive"
-            objectFit="contain"
-            className={sc.image}
-            width={400}
-            height={400}
-            src={src}
-            alt={alt}
-          />
-        </SwiperSlide>
-        <SwiperSlide>
-          <Image
-            layout="responsive"
-            objectFit="contain"
-            className={sc.image}
-            width={400}
-            height={400}
-            src={src}
-            alt={alt}
-          />
-        </SwiperSlide>
-        <SwiperSlide>
-          <Image
-            layout="responsive"
-            objectFit="contain"
-            className={sc.image}
-            width={400}
-            height={400}
-            src={src}
-            alt={alt}
-          />
-        </SwiperSlide>
-        <SwiperSlide>
-          <Image
-            layout="responsive"
-            objectFit="contain"
-            className={sc.image}
-            width={400}
-            height={400}
-            src={src}
-            alt={alt}
-          />
-        </SwiperSlide>
+        {images &&
+          images.map((image, index) => (
+            <SwiperSlide key={index}>
+              <Box className={sc.slideContent}>
+                <Image
+                  layout="responsive"
+                  objectFit="contain"
+                  className={sc.image}
+                  width={400}
+                  height={400}
+                  src={`/${image.src}`}
+                  alt={"scooter photo"}
+                />
+              </Box>
+            </SwiperSlide>
+          ))}
       </Swiper>
     </Box>
   );

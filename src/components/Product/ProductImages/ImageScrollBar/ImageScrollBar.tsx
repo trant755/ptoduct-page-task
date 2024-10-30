@@ -1,5 +1,6 @@
 "use client";
 import { useState, useEffect } from "react";
+import Image from "next/image";
 import { Box } from "@radix-ui/themes";
 import "swiper/css";
 
@@ -22,11 +23,13 @@ import { Swiper as SwiperClass } from "swiper";
 export interface ImageScrollBarProps {
   mainSwiper: SwiperClass | null;
   setSecondSwiper?: (swiper: SwiperClass) => void;
+  images: { src: string }[];
 }
 
 const ImageScrollBar = ({
   mainSwiper,
   setSecondSwiper,
+  images,
 }: ImageScrollBarProps) => {
   const [isMobile, setIsMobile] = useState(true);
 
@@ -66,24 +69,20 @@ const ImageScrollBar = ({
           }
         }}
       >
-        <SwiperSlide className={sc.slide}>
-          <Box className={sc.slideContent}>Slide 1</Box>
-        </SwiperSlide>
-        <SwiperSlide className={sc.slide}>
-          <Box className={sc.slideContent}>Slide 2</Box>
-        </SwiperSlide>
-        <SwiperSlide className={sc.slide}>
-          <Box className={sc.slideContent}>Slide 3</Box>
-        </SwiperSlide>
-        <SwiperSlide className={sc.slide}>
-          <Box className={sc.slideContent}>Slide 4</Box>
-        </SwiperSlide>
-        <SwiperSlide className={sc.slide}>
-          <Box className={sc.slideContent}>Slide 5</Box>
-        </SwiperSlide>
-        <SwiperSlide className={sc.slide}>
-          <Box className={sc.slideContent}>Slide 6</Box>
-        </SwiperSlide>
+        {images &&
+          images.map((image, index) => (
+            <SwiperSlide className={sc.slide} key={index}>
+              <Box className={sc.slideContent}>
+                <Image
+                  width={100}
+                  height={100}
+                  src={`/${image.src}`}
+                  className={sc.image}
+                  alt="product"
+                />
+              </Box>
+            </SwiperSlide>
+          ))}
       </Swiper>
     </Box>
   );

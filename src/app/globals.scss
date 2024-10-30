@@ -3,13 +3,14 @@
   --foreground: #ced0d1;
   --light-ths: #f9f9f9;
   --dark-ths: #151515;
+  --custom-white-light-only: #fefefe;
 }
 
 .radix-themes {
   --container-1: 448px;
   --container-2: 688px;
   --container-3: calc(100% - 48px);
-  --container-4: calc(1440px);
+  --container-4: calc(1680px);
 
   --custom-black: #202020;
   --custom-white: #fefefe;
@@ -18,7 +19,6 @@
 
 html:not(.dark) .radix-themes {
   --color-background: #eaeaea;
-  --custom-white-light-only: #fefefe;
   --custom-black-mode: #202020;
 }
 

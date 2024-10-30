@@ -14,6 +14,14 @@
     max-height: none;
   }
 
+  @media screen and (min-width: 1024px) {
+    width: 120px;
+  }
+
+  @media screen and (min-width: 1280px) {
+    width: 200px;
+  }
+
   &::before {
     content: "";
     position: absolute;
@@ -88,8 +96,16 @@
       aspect-ratio: 1;
 
       .slideContent {
+        height: 100%;
         opacity: 1;
         transition: opacity 0.3s ease-in-out;
+        padding: 12px;
+
+        .image {
+          height: 100%;
+          aspect-ratio: 1;
+          object-fit: contain;
+        }
       }
     }
   }

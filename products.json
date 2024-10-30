@@ -1,23 +1,265 @@
 [
   {
     "id": 1,
-    "slug": "product-1",
-    "name": "Product 1",
-    "description": "This is the first product.",
-    "price": 19.99
+    "slug": "yadea-v7-blue-960wh",
+    "name": "Yadea V7 (Blue) 960Wh",
+    "description": "<div class=\"container_right\"><h3>Electric Scooter Yadea G5</h3><p>To prevent fatigue from long rides, the G5 is equipped with a suspension system that reduces vibration, providing a smoother ride. The frame made of cold-rolled steel and aluminum rear suspension ensures the electric scooter has the necessary stability.</p><p>Hydraulic disc brakes provide handling and control, ensuring the device responds instantly to the rider’s actions.</p><h3>7-Inch LCD Display and Full LED Lighting Technology</h3><p>The electronic display with automatic brightness adjustment, GPS, Bluetooth, and scratch protection offers maximum comfort to the owner. The wide lighting range allows for confident night-time rides.</p><h3>Lithium-Ion Battery</h3><p>The G5 electric scooter is equipped with a 60V26Ah/60V32Ah battery type.</p><h3>Disc Brakes</h3><p>The G5 is fitted with hydraulic disc brakes with opposing cylinders at the front and rear, with a diameter of 220 mm.</p><p>Front and rear disc plates provide strong braking grip. Quality brakes – front drum, rear disc, and electric brakes – keep the G5 secure for your peace of mind!</p><h3>Spacious Trunk</h3><p>The G5 electric scooter is equipped with a storage compartment, adding even more convenience for you!</p></div>",
+    "characteristics": [
+      {
+        "title": "Construction",
+        "param": [
+          { "title": "Device type", "value": "Electric scooter" },
+          { "title": "Purpose", "value": "For adults" },
+          { "title": "Wheel diameter", "value": "16 inches" },
+          { "title": "Device weight", "value": "55 kg" },
+          { "title": "Model color", "value": "Gray" }
+        ]
+      },
+      {
+        "title": "Movement",
+        "param": [
+          { "title": "Maximum load", "value": "75 kg" },
+          { "title": "Maximum speed", "value": "Up to 25 km/h" },
+          { "title": "Minimum height", "value": "From 150 cm" },
+          { "title": "Motor power", "value": "400 W" }
+        ]
+      },
+      {
+        "title": "Autonomy",
+        "param": [
+          { "title": "Range", "value": "Up to 70 km" },
+          { "title": "Battery capacity", "value": "960 Wh" },
+          { "title": "Battery type", "value": "Li-ion" },
+          { "title": "Charging time", "value": "Up to 8 hours" }
+        ]
+      },
+      {
+        "title": "Features",
+        "param": [
+          { "title": "App compatibility", "value": "No" },
+          { "title": "LCD display", "value": "Yes" },
+          { "title": "Lighting", "value": "Yes" }
+        ]
+      },
+      {
+        "title": "Package Contents",
+        "param": [
+          {
+            "title": "Included items",
+            "value": "Electric Scooter; Charger; User Manual"
+          }
+        ]
+      },
+      {
+        "title": "Legal Information",
+        "param": [
+          {
+            "title": "Disclaimer",
+            "value": "The product may differ from the image shown; specifications and package contents may be changed by the manufacturer. Please check details with the manager."
+          }
+        ]
+      }
+    ],
+    "inStock": true,
+    "colors": [
+      {
+        "name": "Blue",
+        "hex": "#0000FF",
+        "slug": "yadea-v7-blue-960wh"
+      },
+      {
+        "name": "Gray",
+        "hex": "#808080",
+        "slug": "yadea-v7-gray-960wh"
+      },
+      {
+        "name": "White",
+        "hex": "#FFFFFF",
+        "slug": "yadea-v7-white-960wh"
+      }
+    ],
+    "images": [
+      {
+        "src": "scooter-blue-1.png"
+      },
+      {
+        "src": "blue-2-Photoroom.png"
+      },
+      {
+        "src": "blue-3-Photoroom.png"
+      },
+      {
+        "src": "blue-4-Photoroom.png"
+      },
+      {
+        "src": "blue-5-Photoroom.png"
+      },
+      {
+        "src": "blue-6-Photoroom.png"
+      }
+    ],
+    "price": 1199
   },
   {
     "id": 2,
-    "slug": "product-2",
-    "name": "Product 2",
-    "description": "This is the second product.",
-    "price": 29.99
+    "slug": "yadea-v7-gray-960wh",
+    "name": "Yadea V7 (Gray) 960Wh",
+    "description": "<div class=\"container_right\"><h3>Electric Scooter Yadea G5</h3><p>To prevent fatigue from long rides, the G5 is equipped with a suspension system that reduces vibration, providing a smoother ride. The frame made of cold-rolled steel and aluminum rear suspension ensures the electric scooter has the necessary stability.</p><p>Hydraulic disc brakes provide handling and control, ensuring the device responds instantly to the rider’s actions.</p><h3>7-Inch LCD Display and Full LED Lighting Technology</h3><p>The electronic display with automatic brightness adjustment, GPS, Bluetooth, and scratch protection offers maximum comfort to the owner. The wide lighting range allows for confident night-time rides.</p><h3>Lithium-Ion Battery</h3><p>The G5 electric scooter is equipped with a 60V26Ah/60V32Ah battery type.</p><h3>Disc Brakes</h3><p>The G5 is fitted with hydraulic disc brakes with opposing cylinders at the front and rear, with a diameter of 220 mm.</p><p>Front and rear disc plates provide strong braking grip. Quality brakes – front drum, rear disc, and electric brakes – keep the G5 secure for your peace of mind!</p><h3>Spacious Trunk</h3><p>The G5 electric scooter is equipped with a storage compartment, adding even more convenience for you!</p></div>",
+    "characteristics": [
+      {
+        "title": "Construction",
+        "param": [
+          { "title": "Device type", "value": "Electric scooter" },
+          { "title": "Purpose", "value": "For adults" },
+          { "title": "Wheel diameter", "value": "16 inches" },
+          { "title": "Device weight", "value": "55 kg" },
+          { "title": "Model color", "value": "Gray" }
+        ]
+      },
+      {
+        "title": "Movement",
+        "param": [
+          { "title": "Maximum load", "value": "75 kg" },
+          { "title": "Maximum speed", "value": "Up to 25 km/h" },
+          { "title": "Minimum height", "value": "From 150 cm" },
+          { "title": "Motor power", "value": "400 W" }
+        ]
+      },
+      {
+        "title": "Autonomy",
+        "param": [
+          { "title": "Range", "value": "Up to 70 km" },
+          { "title": "Battery capacity", "value": "960 Wh" },
+          { "title": "Battery type", "value": "Li-ion" },
+          { "title": "Charging time", "value": "Up to 8 hours" }
+        ]
+      },
+      {
+        "title": "Features",
+        "param": [
+          { "title": "App compatibility", "value": "No" },
+          { "title": "LCD display", "value": "Yes" },
+          { "title": "Lighting", "value": "Yes" }
+        ]
+      },
+      {
+        "title": "Package Contents",
+        "param": [
+          {
+            "title": "Included items",
+            "value": "Electric Scooter; Charger; User Manual"
+          }
+        ]
+      },
+      {
+        "title": "Legal Information",
+        "param": [
+          {
+            "title": "Disclaimer",
+            "value": "The product may differ from the image shown; specifications and package contents may be changed by the manufacturer. Please check details with the manager."
+          }
+        ]
+      }
+    ],
+    "colors": [
+      {
+        "name": "Blue",
+        "hex": "#0000FF",
+        "slug": "yadea-v7-blue-960wh"
+      },
+      {
+        "name": "Gray",
+        "hex": "#808080",
+        "slug": "yadea-v7-gray-960wh"
+      },
+      {
+        "name": "White",
+        "hex": "#FFFFFF",
+        "slug": "yadea-v7-white-960wh"
+      }
+    ],
+    "inStock": false,
+    "price": 1199
   },
   {
     "id": 3,
-    "slug": "product-3",
-    "name": "Product 3",
-    "description": "This is the third product.",
-    "price": 39.99
+    "slug": "yadea-v7-white-960wh",
+    "name": "Yadea V7 (White) 960Wh",
+    "description": "<div class=\"container_right\"><h3>Electric Scooter Yadea G5</h3><p>To prevent fatigue from long rides, the G5 is equipped with a suspension system that reduces vibration, providing a smoother ride. The frame made of cold-rolled steel and aluminum rear suspension ensures the electric scooter has the necessary stability.</p><p>Hydraulic disc brakes provide handling and control, ensuring the device responds instantly to the rider’s actions.</p><h3>7-Inch LCD Display and Full LED Lighting Technology</h3><p>The electronic display with automatic brightness adjustment, GPS, Bluetooth, and scratch protection offers maximum comfort to the owner. The wide lighting range allows for confident night-time rides.</p><h3>Lithium-Ion Battery</h3><p>The G5 electric scooter is equipped with a 60V26Ah/60V32Ah battery type.</p><h3>Disc Brakes</h3><p>The G5 is fitted with hydraulic disc brakes with opposing cylinders at the front and rear, with a diameter of 220 mm.</p><p>Front and rear disc plates provide strong braking grip. Quality brakes – front drum, rear disc, and electric brakes – keep the G5 secure for your peace of mind!</p><h3>Spacious Trunk</h3><p>The G5 electric scooter is equipped with a storage compartment, adding even more convenience for you!</p></div>",
+    "characteristics": [
+      {
+        "title": "Construction",
+        "param": [
+          { "title": "Device type", "value": "Electric scooter" },
+          { "title": "Purpose", "value": "For adults" },
+          { "title": "Wheel diameter", "value": "16 inches" },
+          { "title": "Device weight", "value": "55 kg" },
+          { "title": "Model color", "value": "Gray" }
+        ]
+      },
+      {
+        "title": "Movement",
+        "param": [
+          { "title": "Maximum load", "value": "75 kg" },
+          { "title": "Maximum speed", "value": "Up to 25 km/h" },
+          { "title": "Minimum height", "value": "From 150 cm" },
+          { "title": "Motor power", "value": "400 W" }
+        ]
+      },
+      {
+        "title": "Autonomy",
+        "param": [
+          { "title": "Range", "value": "Up to 70 km" },
+          { "title": "Battery capacity", "value": "960 Wh" },
+          { "title": "Battery type", "value": "Li-ion" },
+          { "title": "Charging time", "value": "Up to 8 hours" }
+        ]
+      },
+      {
+        "title": "Features",
+        "param": [
+          { "title": "App compatibility", "value": "No" },
+          { "title": "LCD display", "value": "Yes" },
+          { "title": "Lighting", "value": "Yes" }
+        ]
+      },
+      {
+        "title": "Package Contents",
+        "param": [
+          {
+            "title": "Included items",
+            "value": "Electric Scooter; Charger; User Manual"
+          }
+        ]
+      },
+      {
+        "title": "Legal Information",
+        "param": [
+          {
+            "title": "Disclaimer",
+            "value": "The product may differ from the image shown; specifications and package contents may be changed by the manufacturer. Please check details with the manager."
+          }
+        ]
+      }
+    ],
+    "colors": [
+      {
+        "name": "Blue",
+        "hex": "#0000FF",
+        "slug": "yadea-v7-blue-960wh"
+      },
+      {
+        "name": "Gray",
+        "hex": "#808080",
+        "slug": "yadea-v7-gray-960wh"
+      },
+      {
+        "name": "White",
+        "hex": "#FFFFFF",
+        "slug": "yadea-v7-white-960wh"
+      }
+    ],
+    "inStock": true,
+    "price": 1199
   }
 ]
